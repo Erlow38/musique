@@ -170,4 +170,13 @@ audio {
         height: calc(25px + 2vw);
         margin-bottom: 10px;
     }
+    .background {
+        display: none;
+    }
+    body {
+        background: url(media/bg-mobile.png);
+        background-size: cover;
+        background-position: center;
+        
+    }
 }
