@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cinzel+Decorative:wght@400;700&family=Nosifer&family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: white;
+}
+
+.background {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+.background video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header svg {
+    width: calc(10px + 2vw);
+    height: calc(10px + 2vw);
+    fill: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.header svg:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    height: 100vh;
+}
+
+.hero-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-container h1 {
+    font-size: calc(2rem + 2vw);
+    letter-spacing: 40px;
+    font-family: 'Cinzel decorative', cursive;
+    font-weight: 700;
+}
+
+.hero-container h2 {
+    font-size: calc(1rem + 1vw);
+    letter-spacing: 10px;
+    font-family: 'Poppins', cursive;
+    font-weight: 200;
+}
+
+audio {
+    width: calc(60% - 40px);
+    margin-top: 30px;
+}
+
+/* Texte défilant */
+.messagedefilant {
+    font-family: 'cinzel decorative', cursive;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+    bottom: 50px;
+}
+
+.messagedefilant div {
+    position: absolute;
+    margin-top: 5px;
+    min-width: 100%;
+    /* au minimum la largeur du conteneur */
+}
+
+.messagedefilant div span,
+.messagedefilant div:after {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    top: 0;
+}
+
+.messagedefilant div span {
+    animation: defilement 10s infinite linear;
+}
+
+.messagedefilant div:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(data-text);
+    animation: defilement2 10s infinite linear;
+}
+
+@keyframes defilement {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+
+@keyframes defilement2 {
+    0% {
+        margin-left: 100%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    audio {
+        width: calc(100% - 40px);
+        margin-top: 30px;
+    }
+
+    .hero-container h1 {
+        font-size: calc(1.5rem + 2vw);
+        letter-spacing: 20px;
+    }
+
+    .hero-container h2 {
+        font-size: calc(1rem + 1vw);
+        letter-spacing: 10px;
+    }
+
+    .header svg {
+        width: calc(20px + 2vw);
+        height: calc(20px + 2vw);
+        margin-bottom: 10px;
+    }
+}
