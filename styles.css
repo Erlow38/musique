@@ -153,21 +153,21 @@ audio {
     audio {
         width: calc(100% - 10px);
         margin-top: 30px;
-    }
+    }  
 
     .hero-container h1 {
-        font-size: calc(3rem + 2vw);
+        font-size: calc(2rem + 2vw);
         letter-spacing: 20px;
     }
 
     .hero-container h2 {
-        font-size: calc(2rem + 1vw);
+        font-size: calc(1.2rem + 1vw);
         letter-spacing: 10px;
     }
 
     .header svg {
-        width: calc(40px + 2vw);
-        height: calc(40px + 2vw);
+        width: calc(25px + 2vw);
+        height: calc(25px + 2vw);
         margin-bottom: 10px;
     }
 }
