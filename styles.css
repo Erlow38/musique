@@ -20,6 +20,10 @@ audio {
     width: calc(20vw - 10px);
     margin-top: 30px;
 }
+a {
+    width: calc(10px + 2vw);
+    height: calc(10px + 2vw);
+}
 .background {
     z-index: -1;
     position: fixed;
@@ -167,6 +171,11 @@ audio {
 }
 
 @media screen and (max-width: 768px) {
+    a {
+        width: calc(25px + 2vw);
+        height: calc(25px + 2vw);
+        margin-bottom: 10px;
+    }
     audio {
         width: calc(70vw - 10px);
     }
@@ -186,7 +195,6 @@ audio {
     .header svg {
         width: calc(25px + 2vw);
         height: calc(25px + 2vw);
-        margin-bottom: 10px;
     }
     .background {
         display: none;
