@@ -24,7 +24,7 @@ function rightArrowClick() {
         autor.innerHTML = 'SoBorn (prod.LILCHICK)';
         audio.src = 'media/music/Call_me_tonight.mp3';
 
-        body.style.background = 'url(media/background-mobile/bg-cmt-mobile.png)';
+        body.style.background = 'url(media/background-mobile/bg-cmt-mobile.jpg)';
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
 
@@ -42,7 +42,7 @@ function rightArrowClick() {
         autor.innerHTML = 'SoBorn & Erlow (prod.TOMATOMIX)';
         audio.src = 'media/music/Soleil.mp3';
 
-        body.style.background = 'url(media/background-mobile/bg-soleil-mobile.png)';
+        body.style.background = 'url(media/background-mobile/bg-soleil-mobile.jpg)';
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
 
@@ -60,7 +60,7 @@ function rightArrowClick() {
         autor.innerHTML = 'SoBorn';
         audio.src = 'media/music/Coming.mp3';
 
-        body.style.background = 'url(media/background-mobile/bg-coming-mobile.png)';
+        body.style.background = 'url(media/background-mobile/bg-coming-mobile.jpg)';
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
 
@@ -82,7 +82,7 @@ function leftArrowClick() {
         autor.innerHTML = 'SoBorn & Erlow (prod.nausaah)';
         audio.src = 'media/music/Demain.mp3';
 
-        body.style.background = 'url(media/background-mobile/bg-demain-mobile.png)';
+        body.style.background = 'url(media/background-mobile/bg-demain-mobile.jpg)';
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
 
@@ -100,7 +100,7 @@ function leftArrowClick() {
         autor.innerHTML = 'SoBorn (prod.LILCHICK)';
         audio.src = 'media/music/Call_me_tonight.mp3';
 
-        body.style.background = 'url(media/background-mobile/bg-cmt-mobile.png)';
+        body.style.background = 'url(media/background-mobile/bg-cmt-mobile.jpg)';
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
 
@@ -118,7 +118,7 @@ function leftArrowClick() {
         autor.innerHTML = 'SoBorn & Erlow (prod.TOMATOMIX)';
         audio.src = 'media/music/Soleil.mp3';
 
-        body.style.background = 'url(media/background-mobile/bg-soleil-mobile.png)';
+        body.style.background = 'url(media/background-mobile/bg-soleil-mobile.jpg)';
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
 
