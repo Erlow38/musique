@@ -17,7 +17,7 @@ body {
     background-position: center;
 }
 audio {
-    width: calc(60% - 40px);
+    width: calc(20vw - 10px);
     margin-top: 30px;
 }
 .background {
@@ -168,8 +168,7 @@ audio {
 
 @media screen and (max-width: 768px) {
     audio {
-        width: calc(100% - 10px);
-        margin-top: 30px;
+        width: calc(70vw - 10px);
     }
     .hero-container h1 {
         font-size: calc(2rem + 2vw);
