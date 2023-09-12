@@ -36,6 +36,24 @@ function rightArrowClick() {
         left_arrow.style.display = 'block';
         right_arrow.style.display = 'block';
 
+        background.src = 'media/background/bg-coeur.mp4';
+        subtitle.innerHTML = 'Écoutez dès maintenant';
+        title.innerHTML = 'Coeur étranger';
+        autor.innerHTML = 'SoBorn (prod.NoaN)';
+        audio.src = 'media/music/Coeur_etranger.mp3';
+
+        body.style.background = 'url(media/background-mobile/bg-coeur-mobile.jpg)';
+        body.style.backgroundSize = 'cover';
+        body.style.backgroundPosition = 'center';
+
+        message.setAttribute('data-text', 'Nouveau titre bientôt sur les platformes ! ⋅ Nouvel EP de SoBorn bientôt disponible');
+        message2.innerHTML = 'Nouveau titre bientôt sur les platformes ! ⋅ Nouvel EP de SoBorn bientôt disponible';
+
+        index = 3;
+    } else if (index == 3) {
+        left_arrow.style.display = 'block';
+        right_arrow.style.display = 'block';
+
         background.src = 'media/background/bg-soleil.mp4';
         subtitle.innerHTML = 'Écoutez dès maintenant';
         title.innerHTML = 'Soleil';
@@ -49,8 +67,8 @@ function rightArrowClick() {
         message.setAttribute('data-text', 'Titre de SoBorn et Erlow ⋅ Nouvel EP de SoBorn bientôt disponible');
         message2.innerHTML = 'Titre de SoBorn et Erlow ⋅ Nouvel EP de SoBorn bientôt disponible';
 
-        index = 3;
-    } else if (index == 3) {
+        index = 4;
+    } else if (index == 4) {
         left_arrow.style.display = 'block';
         right_arrow.style.display = 'none';
 
@@ -67,7 +85,7 @@ function rightArrowClick() {
         message.setAttribute('data-text', 'SoBorn ⋅ Coming Soon');
         message2.innerHTML = 'SoBorn ⋅ Coming Soon';
 
-        index = 4;
+        index = 5;
     }
 }
 
@@ -112,6 +130,24 @@ function leftArrowClick() {
         left_arrow.style.display = 'block';
         right_arrow.style.display = 'block';
 
+        background.src = 'media/background/bg-coeur.mp4';
+        subtitle.innerHTML = 'Écoutez dès maintenant';
+        title.innerHTML = 'Coeur étranger';
+        autor.innerHTML = 'SoBorn (prod.NoaN)';
+        audio.src = 'media/music/Coeur_etranger.mp3';
+
+        body.style.background = 'url(media/background-mobile/bg-coeur-mobile.jpg)';
+        body.style.backgroundSize = 'cover';
+        body.style.backgroundPosition = 'center';
+
+        message.setAttribute('data-text', 'Nouveau titre bientôt sur les platformes ! ⋅ Nouvel EP de SoBorn bientôt disponible');
+        message2.innerHTML = 'Nouveau titre bientôt sur les platformes ! ⋅ Nouvel EP de SoBorn bientôt disponible';
+        
+        index = 3;
+    } else if (index == 5) {
+        left_arrow.style.display = 'block';
+        right_arrow.style.display = 'block';
+
         background.src = 'media/background/bg-soleil.mp4';
         subtitle.innerHTML = 'Écoutez dès maintenant';
         title.innerHTML = 'Soleil';
@@ -125,7 +161,7 @@ function leftArrowClick() {
         message.setAttribute('data-text', 'Titre de SoBorn et Erlow ⋅ Nouvel EP de SoBorn bientôt disponible');
         message2.innerHTML = 'Titre de SoBorn et Erlow ⋅ Nouvel EP de SoBorn bientôt disponible';
 
-        index = 3;
+            index = 4;
     }
 }
 
